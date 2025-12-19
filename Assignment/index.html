@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Improved Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <button id="toggle">DARK/LIGHT</button>
+    <h1>Task List</h1>
+
+    <div id="form-area">
+        <input type="text" id="t" placeholder="Task Title">
+        <input type="text" id="d" placeholder="Task Description">
+        <select id="p">
+            <option value="High">High</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="add">ADD</button>
+    </div>
+
+    <div id="filter-area">
+        <h2>Filter</h2>
+        <button data-pri="All">All</button>
+        <button data-pri="High">High</button>
+        <button data-pri="Medium">Medium</button>
+        <button data-pri="Low">Low</button>
+    </div>
+
+    <ul id="list">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

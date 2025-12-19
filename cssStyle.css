@@ -1,0 +1,89 @@
+/*
+how to write css code
+
+selector{
+    property: value
+}
+*/
+
+body{
+    background-image: url(canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div{
+    border: 2px solid pink;
+    padding: 30px;
+
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+table,h2{
+    color: darkcyan;
+    text-decoration: wavy underline darkcyan;
+    font-style: oblique;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+.class1{
+    color:rgb(226, 135, 67)
+}
+#id1{
+    color: darkorange;
+}
+a:link{
+    /* text-decoration: wavy; */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: cornflowerblue;
+
+}
+a:visited{
+text-decoration: wavy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: skyblue ;
+}
+a:hover{
+    color:deepskyblue;
+    font-size: large;
+}
+a:active{
+    color: red;
+}
+.overflow{
+    border: solid black 5px;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+
+}
+.container{
+    color: cornsilk;
+    text-decoration: black;
+    border-color: burlywood;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-items: center;
+
+
+
+}
+.container div{
+    background-color: rgb(235, 223, 174);
+    color: brown;
+}
+/* .child1{
+    background-color: rgb(235, 223, 174);
+        text-decoration: wavy black;
+}
+.child2{
+    background-color: rgb(235, 223, 174);
+    text-decoration: black;
+}
+.child3{
+    background-color: rgb(235, 223, 174);}
+.child4{
+    background-color: rgb(235, 223, 174);
+} */
